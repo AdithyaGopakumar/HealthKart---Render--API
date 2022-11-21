@@ -1,0 +1,34 @@
+{
+  "name": "project2-healthkart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "startlogin": "nodemon ./loginApp/loginapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdithyaGopakumar/Project-2-HealthKart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdithyaGopakumar/Project-2-HealthKart/issues"
+  },
+  "homepage": "https://github.com/AdithyaGopakumar/Project-2-HealthKart#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
